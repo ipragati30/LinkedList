@@ -1,0 +1,18 @@
+class MyHashSet {
+     private HashSet<Integer> HS;
+
+    public MyHashSet() {
+        HS = new HashSet<>();
+    }
+    public void add(int key) {
+        HS.add(key);
+    }
+    
+    public void remove(int key) {
+        HS.remove(key);
+    }
+    
+    public boolean contains(int key) {
+        return HS.contains(key);
+    }
+}
